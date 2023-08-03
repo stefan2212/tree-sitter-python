@@ -214,6 +214,10 @@
       {
         "type": "tuple_pattern",
         "named": true
+      },
+      {
+        "type": "case_pattern",
+        "named": true
       }
     ]
   },
@@ -1976,6 +1980,25 @@
     }
   },
   {
+    "type": "case_pattern",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": false,
+      "required": true,
+      "types": [
+        {
+          "type": "attribute",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
     "type": "list_splat_pattern",
     "named": true,
     "fields": {},
@@ -3056,6 +3079,10 @@
   },
   {
     "type": "integer",
+    "named": true
+  },
+  {
+    "type": "as_pattern_target",
     "named": true
   },
   {
