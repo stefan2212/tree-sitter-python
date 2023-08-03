@@ -2380,7 +2380,7 @@
         },
         {
           "type": "SYMBOL",
-          "name": "list_pattern"
+          "name": "case_pattern"
         },
         {
           "type": "SYMBOL",
